@@ -32,13 +32,13 @@ person( "Silver", 55)
 
 
 //Question 4
-function booleanValues(hasID = true, isAbove18 = true){
+function booleanValues(hasID = false, isAbove18 = true){
     if ( hasID == true && isAbove18 == true )
         { console.log("Access Granted") }
     else { console.log("Access Denied") }
 }
 booleanValues()
-booleanValues(true, false)
+booleanValues(true, true)
 
 
 //Question 5
@@ -73,7 +73,7 @@ signUp(true, true)
 
 
 //Question 8
-function userDetails ( userName = "Bolu", password = "67!" ){
+function userDetails ( userName = "User", password = "67!" ){
     if ( userName == ""  || password == "" ) { console.log("INVALID INPUT!") }
     else { console.log(`Name: ${userName}, Password: ${password}`) } 
 }
