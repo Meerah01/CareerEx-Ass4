@@ -63,13 +63,13 @@ a(30, 65)
 
 
 //Question 7
-function signUp (email = true, phoneNumber = true){
+function signUp (email = false, phoneNumber = false){
     if ( email == true || phoneNumber == true ) { console.log("Proceed to sign up.") }
     else { console.log("No email or phone number found.") }
 }
 signUp()
 signUp(false, true)
-signUp(false, false)
+signUp(true, true)
 
 
 //Question 8
